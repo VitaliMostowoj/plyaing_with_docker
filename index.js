@@ -2,7 +2,7 @@ console.log("Hello World")
 
 const express = require('express');
 const app = express();
-const PORT = 3030;
+const PORT = 3000;
 
 // Define a GET route
 app.get('/', (req, res) => {
